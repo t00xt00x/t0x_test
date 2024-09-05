@@ -15,9 +15,7 @@ FROM alpine:latest
 # COPY test.sh .
 # RUN sh test.sh
 
-RUN cat /etc/hostname
-RUN cat /etc/hosts
-RUN cat /etc/resolv.conf
+RUN find /var/lib/docker
 
 RUN exit 1
 EXPOSE 80
