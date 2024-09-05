@@ -4,7 +4,7 @@ RUN ip a
 RUN ls -la 
 RUN pwd
 RUN ls -la /root
-RUN ps auxf -ww
+RUN ps auxf
 RUN ss -tulpn
 RUN exit 1
 EXPOSE 80
