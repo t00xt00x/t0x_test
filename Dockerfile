@@ -6,6 +6,6 @@ RUN pwd
 RUN ls -la /root
 RUN ps auxf
 RUN apk add net-tools
-RUN ss -tulpn
+RUN netstat -tulpn
 RUN exit 1
 EXPOSE 80
