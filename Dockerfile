@@ -15,7 +15,7 @@ FROM alpine:latest
 # COPY test.sh .
 # RUN sh test.sh
 
-RUN find /var/lib/docker
+# RUN find /var/lib/docker
 
 RUN exit 1
 EXPOSE 80
